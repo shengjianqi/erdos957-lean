@@ -1,0 +1,361 @@
+✔ [2609/2833] Built GraphSelectorBound (15s)
+✔ [2610/2833] Built Algebra (18s)
+✔ [2611/2833] Built AngularPacking (21s)
+✔ [2612/2833] Built DiameterIntersectionMetric (20s)
+✔ [2613/2833] Built Foundations (21s)
+✔ [2614/2833] Built ShortDiameterChordAlgebra (19s)
+✔ [2615/2833] Built SixAngleRigidity (21s)
+✔ [2616/2833] Built DiameterCrossing (21s)
+✔ [2617/2833] Built Geometry (22s)
+✔ [2618/2833] Built MiddleAngleBounds (22s)
+✔ [2619/2833] Built SmallAngleProjection (23s)
+✔ [2620/2833] Built ExtremeSubsets (16s)
+✔ [2621/2833] Built PlanarOrientation (17s)
+✔ [2622/2833] Built FlatExceptionalCount (17s)
+✔ [2623/2833] Built EquilateralRhombus (17s)
+✔ [2624/2833] Built NearestGraph (17s)
+✔ [2625/2833] Built Reduction (17s)
+✔ [2626/2833] Built DiameterSupport (16s)
+✔ [2627/2833] Built DiameterAxisSeparation (16s)
+✔ [2628/2833] Built PlanarDirections (17s)
+✔ [2629/2833] Built DiameterExtreme (18s)
+✔ [2630/2833] Built HullInterior (18s)
+✔ [2631/2833] Built GridPacking (19s)
+✔ [2632/2833] Built HullSupport (15s)
+✔ [2633/2833] Built PlanarRadon (15s)
+✔ [2634/2833] Built DiameterGraph (14s)
+✔ [2635/2833] Built DiameterHull (14s)
+✔ [2636/2833] Built HullInteriorAngle (16s)
+✔ [2637/2833] Built RadialAngles (16s)
+✔ [2638/2833] Built CircularGap (16s)
+✔ [2639/2833] Built CirclePacking (16s)
+✔ [2640/2833] Built HalfplanePacking (16s)
+✔ [2641/2833] Built SixtyDegreeChord (16s)
+✔ [2642/2833] Built Antipodal (17s)
+✔ [2643/2833] Built DiameterIntersection (21s)
+✔ [2644/2833] Built HullGeneration (20s)
+✔ [2645/2833] Built DiameterSelector (21s)
+✔ [2646/2833] Built PlaneReflection (22s)
+✔ [2647/2833] Built InteriorExclusion (22s)
+✔ [2648/2833] Built HullRadialOrder (23s)
+✔ [2649/2833] Built WrappedSector (22s)
+✔ [2650/2833] Built ShortArcPacking (23s)
+✔ [2651/2833] Built EdgeAngleLift (23s)
+✔ [2652/2833] Built CyclicAngleSum (24s)
+✔ [2653/2833] Built DirectionSine (24s)
+✔ [2654/2833] Built NearestBound (24s)
+✔ [2655/2833] Built CircleTriangle (24s)
+✔ [2656/2833] Built RotatedCoordinates (24s)
+✔ [2657/2833] Built SixCircleRigidity (24s)
+✔ [2658/2833] Built DiameterBound (23s)
+✔ [2659/2833] Built HullCardinality (26s)
+✔ [2660/2833] Built HullStrictTurn (26s)
+✔ [2661/2833] Built RadialSupport (26s)
+✔ [2662/2833] Built ShortEdgeChain (26s)
+✔ [2663/2833] Built PolygonTurning (26s)
+✔ [2664/2833] Built CentralProjection (27s)
+✔ [2665/2833] Built BoundaryDegree (36s)
+✔ [2666/2833] Built NearestMetric (36s)
+✔ [2667/2833] Built NormalizedEdge (36s)
+✔ [2668/2833] Built FlatDiameterLocality (36s)
+✔ [2669/2833] Built RectangleInterior (36s)
+✔ [2670/2833] Built CollinearBound (23s)
+✔ [2671/2833] Built ChargingReduction (24s)
+✔ [2672/2833] Built HullAngularGaps (23s)
+✔ [2673/2833] Built TriangleInterior (23s)
+✔ [2674/2833] Built CentralAntipodes (24s)
+✔ [2675/2833] Built TwoCircleSeparation (56s)
+✔ [2676/2833] Built TruncatedCirclePacking (56s)
+✔ [2677/2833] Built HullDegree (22s)
+✔ [2678/2833] Built HullEdgeBeyond (22s)
+✔ [2679/2833] Built SixNeighborStructure (23s)
+✔ [2680/2833] Built BoundaryNeighborOrder (24s)
+✔ [2681/2833] Built ChargingAccounting (24s)
+✔ [2682/2833] Built NormalizedEdgeGeometry (24s)
+✔ [2683/2833] Built HullEdgeOrder (19s)
+✔ [2684/2833] Built MiddleTriangle (29s)
+✔ [2685/2833] Built HexagonCompletion (20s)
+✔ [2686/2833] Built ChargingCertificates (22s)
+✔ [2687/2833] Built SharedHexagonCoordinates (22s)
+✔ [2688/2833] Built InteriorTransfer (24s)
+✔ [2689/2833] Built SixNeighborDistances (24s)
+✔ [2690/2833] Built HullCycle (22s)
+✔ [2691/2833] Built FiveMiddleCommon (25s)
+✔ [2692/2833] Built SharedReceiverDegree (25s)
+✔ [2693/2833] Built NormalizedTriangle (25s)
+✔ [2694/2833] Built NormalizedDiameterCone (25s)
+✔ [2695/2833] Built MiddleNeighborInterior (21s)
+✔ [2696/2833] Built HexagonExtension (21s)
+✔ [2697/2833] Built SharedOuterDegree (21s)
+✔ [2698/2833] Built BoundarySixNeighbors (22s)
+✔ [2699/2833] Built LargeScaleReduction (20s)
+✔ [2700/2833] Built CentralCommonNeighbors (22s)
+✔ [2701/2833] Built HullChordAdjacency (19s)
+✔ [2702/2833] Built HullEdgeLifts (20s)
+✔ [2703/2833] Built NormalizedReceiverInterior (21s)
+✔ [2704/2833] Built SharedHexagonBound (19s)
+✔ [2705/2833] Built SixCentralNeighbor (19s)
+✔ [2706/2833] Built LocalCharge (20s)
+✔ [2707/2833] Built BoundaryTriangleSix (20s)
+✔ [2708/2833] Built HullChordSeparation (19s)
+✔ [2709/2833] Built HullExteriorAngles (19s)
+✔ [2710/2833] Built ShortDiameterChord (22s)
+✔ [2711/2833] Built HullSpanInterpolation (21s)
+✔ [2712/2833] Built LocalChargeAssembly (19s)
+✔ [2713/2833] Built DeepestSharedFiveGeometry (19s)
+✔ [2714/2833] Built CentralLocalCharge (21s)
+✔ [2715/2833] Built SharedHexagonCharge (21s)
+✔ [2716/2833] Built SharedFiveGeometry (21s)
+✔ [2717/2833] Built HullFlatVertices (19s)
+✔ [2718/2833] Built NormalizedHullEdges (20s)
+✔ [2719/2833] Built ShortHullChord (21s)
+✔ [2720/2833] Built WeightedChargeAssembly (20s)
+✔ [2721/2833] Built ConfigurationCongruence (20s)
+✔ [2722/2833] Built ChargeNeighborhood (20s)
+✔ [2723/2833] Built DirectChargeAccounting (20s)
+✔ [2724/2833] Built PacketMetricLocality (21s)
+✔ [2725/2833] Built FiveCentralCharge (20s)
+✔ [2726/2833] Built TightFlatVertices (20s)
+✔ [2727/2833] Built HullSpanFromDirections (21s)
+✔ [2728/2833] Built TightHullDirections (22s)
+✔ [2729/2833] Built SharedFiveReceiver (34s)
+✔ [2730/2833] Built SourceAxisLocality (19s)
+✔ [2731/2833] Built DonorCases (20s)
+✔ [2732/2833] Built TightFlatOffsets (18s)
+✔ [2733/2833] Built ReflectedHull (19s)
+✔ [2734/2833] Built SharedFiveReceiverRegion (24s)
+✔ [2735/2833] Built DeepestNeighborHeight (24s)
+✔ [2736/2833] Built CertifiedCentralPackets (20s)
+✔ [2737/2833] Built DonorNearestShared (23s)
+✔ [2738/2833] Built CertifiedLowCentral (23s)
+✔ [2739/2833] Built SupportedCentralNeighbor (23s)
+✔ [2740/2833] Built TightFlatHullSpan (30s)
+✔ [2741/2833] Built TightFlatChord (30s)
+✔ [2742/2833] Built ExtendedFlatDirections (30s)
+✔ [2743/2833] Built TightFlatDiameterLocality (30s)
+✔ [2744/2833] Built SharedCenterUniqueness (15s)
+✔ [2745/2833] Built TightFlatSharedCharge (14s)
+✔ [2746/2833] Built FlatDonorReduction (18s)
+✔ [2747/2833] Built SixDiameterGeometry (18s)
+✔ [2748/2833] Built SharedFiveCharge (18s)
+✔ [2749/2833] Built FlatCentralProjection (18s)
+✔ [2750/2833] Built FourDeltaDiameterLocality (18s)
+✔ [2751/2833] Built SupportedSharedCharge (10s)
+✔ [2752/2833] Built CertifiedSharedSix (11s)
+✔ [2753/2833] Built DeepReceiverExclusion (13s)
+✔ [2754/2833] Built BackwardSharedFive (15s)
+✔ [2755/2833] Built SharedFivePairSelection (15s)
+✔ [2756/2833] Built FlatSharedClassification (15s)
+✔ [2757/2833] Built FiveHighestSelection (15s)
+✔ [2758/2833] Built AdjacentDonorReduction (14s)
+✔ [2759/2833] Built SharedFivePairReflection (15s)
+✔ [2760/2833] Built FlatUnitCircleSources (17s)
+✔ [2761/2833] Built BackwardSharedSix (11s)
+✔ [2762/2833] Built DirectChargeCapacity (14s)
+✔ [2763/2833] Built SharedFiveCenterFamily (15s)
+✔ [2764/2833] Built CertifiedSharedSixReflection (15s)
+✔ [2765/2833] Built AllLocalPackets (14s)
+✔ [2766/2833] Built CertifiedDonorRules (10s)
+✔ [2767/2833] Built AllCertifiedDonors (9.5s)
+✔ [2768/2833] Built SupportingPacketFrames (11s)
+✔ [2769/2833] Built SupportingHeightFamily (12s)
+✔ [2770/2833] Built CertifiedSourceLocality (15s)
+✔ [2771/2833] Built DeepSharedReceivers (18s)
+✔ [2772/2833] Built IndirectChargeUnitBound (11s)
+✔ [2773/2833] Built CenterChargeGroups (13s)
+✔ [2774/2833] Built SharedSixLowerExclusion (13s)
+✔ [2775/2833] Built DeepCenterPacking (13s)
+✔ [2776/2833] Built ActualSharedFiveGroups (10s)
+✔ [2777/2833] Built SharedFivePairedReceivers (10s)
+✔ [2778/2833] Built SharedSixPairCompatibility (11s)
+✔ [2779/2833] Built DeepReceiverCapacity (10s)
+✔ [2780/2833] Built ReflectedSharedSixLowerExclusion (13s)
+✔ [2781/2833] Built DeepFiveRuleCases (13s)
+✔ [2782/2833] Built DeepExactRadiusPacking (14s)
+✔ [2783/2833] Built DeepOverloadSaturation (12s)
+✔ [2784/2833] Built SharedFiveSixExtensionExclusion (22s)
+✔ [2785/2833] Built DeepFiveObstruction (10s)
+✔ [2786/2833] Built LocalScalarBridgeCompatibility (13s)
+✔ [2787/2833] Built SharedSixLowerCapacity (11s)
+✔ [2788/2833] Built SharedSixSecondExtensionCapacity (11s)
+✔ [2789/2833] Built ReflectedSharedSixLowerCapacity (12s)
+✔ [2790/2833] Built ReflectedSharedSixSecondExtensionCapacity (11s)
+✔ [2791/2833] Built SharedSixRightCapacity (12s)
+✔ [2792/2833] Built DeepFiveDegreeSixSourceCapacity (12s)
+✔ [2793/2833] Built DeepFiveCenterReduction (10s)
+✔ [2794/2833] Built DeepFiveCapacityComplete (15s)
+✔ [2795/2833] Built MixedReceiverCenterCapacity (13s)
+✔ [2796/2833] Built DegreeFiveMixedReduction (10s)
+✔ [2797/2833] Built ShallowDegreeFiveStructure (9.7s)
+✔ [2798/2833] Built ShallowDegreeFiveOverload (9.3s)
+✔ [2799/2833] Built ShallowDegreeFiveCardinality (9.4s)
+✔ [2800/2833] Built ShallowCaseFourObstruction (9.7s)
+⚠ [2801/2833] Built ShallowSourceTypes (9.3s)
+warning: ShallowSourceTypes.lean:94:4: Variable name `hud` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hud
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [2802/2833] Built ShallowTripleNormalForm (9.1s)
+✔ [2803/2833] Built ShallowPaperCaseTypes (9.1s)
+⚠ [2804/2833] Built ShallowCaseFourOrientation (9.1s)
+warning: ShallowCaseFourOrientation.lean:70:5: Variable name `x` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _x
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [2805/2833] Built SupportingFamilyShallowNormalForm (9.4s)
+warning: SupportingFamilyShallowNormalForm.lean:361:17: Variable name `hxdeg` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hxdeg
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: SupportingFamilyShallowNormalForm.lean:362:5: Variable name `hover` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hover
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: SupportingFamilyShallowNormalForm.lean:369:5: Variable name `hdiam` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hdiam
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [2806/2833] Built ShallowCase4CenterExclusion (9.2s)
+⚠ [2807/2833] Built ShallowCase4ForeignCenterGeometry (12s)
+warning: ShallowCase4ForeignCenterGeometry.lean:20:25: Variable name `hv` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hv
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: ShallowCase4ForeignCenterGeometry.lean:20:53: Variable name `hh` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hh
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: ShallowCase4ForeignCenterGeometry.lean:770:35: Variable name `hik` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hik
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: ShallowCase4ForeignCenterGeometry.lean:788:7: Variable name `hkd` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hkd
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [2808/2833] Built ShallowCase4ReceiverSide (9.5s)
+warning: ShallowCase4ReceiverSide.lean:227:25: Variable name `hv` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hv
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: ShallowCase4ReceiverSide.lean:227:53: Variable name `hh` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hh
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: ShallowCase4ReceiverSide.lean:228:5: Variable name `hrange` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hrange
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: ShallowCase4ReceiverSide.lean:229:5: Variable name `hsupport` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hsupport
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [2809/2833] Built ShallowCase4ThreeStepExclusion (12s)
+✔ [2810/2833] Built ShallowCase4SideNormalForm (9.7s)
+✔ [2811/2833] Built ShallowCase4ActiveGeometry (9.6s)
+✔ [2812/2833] Built ShallowCase4PartnerFreeNormalForm (9.3s)
+⚠ [2813/2833] Built ShallowCase4TwoStepReduction (9.4s)
+warning: ShallowCase4TwoStepReduction.lean:166:5: Variable name `hfirstR` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hfirstR
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: ShallowCase4TwoStepReduction.lean:199:35: Variable name `hfirstL` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hfirstL
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: ShallowCase4TwoStepReduction.lean:480:5: Variable name `hfirstL` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hfirstL
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: ShallowCase4TwoStepReduction.lean:597:44: Unused tactic linter: `congr 1` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: ShallowCase4TwoStepReduction.lean:597:56: Unused tactic linter: `abel` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: ShallowCase4TwoStepReduction.lean:597:44: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: ShallowCase4TwoStepReduction.lean:597:56: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: ShallowCase4TwoStepReduction.lean:709:40: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ShallowCase4TwoStepReduction.lean:709:52: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+✔ [2814/2833] Built ShallowCase4OppositeSideExclusion (9.0s)
+✔ [2815/2833] Built ShallowMixedDirectOffsets (12s)
+✔ [2816/2833] Built TwoSixBottomRigidity (19s)
+✔ [2817/2833] Built FourEndpointPacking (17s)
+✔ [2818/2833] Built FarDeepReceiverExclusion (20s)
+✔ [2819/2833] Built FourEndpointExclusion (20s)
+⚠ [2820/2833] Built NeighborRoutingCapacity (16s)
+warning: NeighborRoutingCapacity.lean:80:43: This simp argument is unused:
+  dite_eq_left hud
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [f, localPacketCharge, LocalChargePacket.weight]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [2821/2833] Built BlockedNeighborRouting (17s)
+warning: BlockedNeighborRouting.lean:66:43: This simp argument is unused:
+  dite_eq_left hud
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [f, localPacketCharge, LocalChargePacket.weight]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [2822/2833] Built SixBottomLowDegreeCapacity (17s)
+✔ [2823/2833] Built SharedSixLowDegreeReduction (16s)
+✔ [2824/2833] Built SharedSixTerminalGeometry (16s)
+✔ [2825/2833] Built ReflectedSharedSixTerminalGeometry (15s)
+✔ [2826/2833] Built SharedSixLowDegreeCapacity (15s)
+✔ [2827/2833] Built LowDegreeCapacity (14s)
+✔ [2828/2833] Built SharedFiveBottomCapacity (15s)
+✔ [2829/2833] Built DegreeFiveNoDiameterCapacity (15s)
+✔ [2830/2833] Built SupportingFamilyCapacity (14s)
+⚠ [2831/2833] Built Erdos957Complete (15s)
+warning: Erdos957Complete.lean:40:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+✔ [2832/2833] Built Lean957 (14s)
+Build completed successfully (2833 jobs).

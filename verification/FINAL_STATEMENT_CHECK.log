@@ -1,0 +1,7 @@
+@Erdos957.erdos957_product_bound : ∀ {n : ℕ} (p : Fin n → Erdos957.Point),
+  2 ≤ n → Function.Injective p → ↑(Erdos957.sMin p) * ↑(Erdos957.sMax p) ≤ 9 / 8 * ↑n ^ 2 + 25200 * ↑n
+Erdos957.erdos957_quantitative : Erdos957.QuantitativeBound
+Erdos957.erdos957_asymptotic : Erdos957.AsymptoticBound
+'Erdos957.erdos957_product_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.erdos957_quantitative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.erdos957_asymptotic' depends on axioms: [propext, Classical.choice, Quot.sound]

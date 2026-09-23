@@ -1,0 +1,244 @@
+import FlatDiameterLocality
+import TightHullDirections
+import TightFlatOffsets
+import LargeScaleReduction
+import SmallAngleProjection
+import Mathlib.Tactic.IntervalCases
+
+/-! Actual flat hull chains control every nearby diameter endpoint. The
+normalization edge is an arbitrary actual hull edge, not a nearest edge. -/
+
+namespace Erdos957
+
+open scoped ComplexConjugate
+
+private theorem normalized_diameter_inward_strict {n : ℕ}
+    (p : Fin n → Point) (hp : Function.Injective p)
+    (a b : Fin n) (hab : p a ≠ p b)
+    {u j x : Fin n} (hdiam : (diameterGraph p).Adj u j) (hxu : x ≠ u) :
+    let M := fun k => edgeCoordinate (p a) (p b) (p k)
+    0 < (M j - M u).re * (M x - M u).re +
+      (M j - M u).im * (M x - M u).im := by
+  let M := fun k => edgeCoordinate (p a) (p b) (p k)
+  have hmetric : dist (M j) (M x) ≤ dist (M j) (M u) := by
+    dsimp [M]
+    rw [edgeCoordinate_dist _ _ _ _ hab, edgeCoordinate_dist _ _ _ _ hab]
+    apply div_le_div_of_nonneg_right _ dist_nonneg
+    rcases (diameterGraph_adj_iff p u j).mp hdiam with hmax | hmax
+    · simpa only [pairDist, dist_comm] using isMaxPair_dist_le p hmax j x
+    · simpa only [pairDist] using isMaxPair_dist_le p hmax j x
+  have hne : M x ≠ M u := fun heq =>
+    hxu (hp (edgeCoordinate_injective (p a) (p b) hab heq))
+  have hin := farthest_inner_strict (M u) (M j) (M x) hmetric hne
+  rw [show M u - M j = -(M j - M u) by abel, inner_neg_left] at hin
+  change 0 < (M j - M u).re * (M x - M u).re +
+    (M j - M u).im * (M x - M u).im
+  simp only [Complex.inner, Complex.mul_re, Complex.conj_re, Complex.conj_im] at hin
+  nlinarith only [hin]
+
+/-- Any diameter endpoint within two minimum distances of an actual
+tight-flat diameter endpoint belongs to its five central hull positions.
+The strict diameter functional excludes all remote cyclic indices at once. -/
+theorem tight_flat_nearby_diameter_endpoint_local {n h : ℕ} [NeZero h]
+    (p : Fin n → Point) (hp : Function.Injective p) (hn : 1681 < n)
+    (v : Fin h → Fin n) (hv : Function.Injective v) (hh : 3 ≤ h)
+    (hsupport : ∀ i k, 0 ≤ turn (p (v i)) (p (v (i + 1))) (p k))
+    (hpos : ∀ k, 0 < hullExteriorAngle p v k)
+    (ij : Fin n × Fin n) (hmin : isMinPair p ij)
+    (i : Fin h) (hgood : v i ∉ tightHullBadVertices p v)
+    (hu : v i ∈ diameterEndpoints p)
+    (w : Fin n) (hw : w ∈ diameterEndpoints p)
+    (hclose : dist (p (v i)) (p w) ≤ 2 * pairDist p ij) :
+    w = v i ∨ w = v (i + 1) ∨ w = v (i - 1) ∨
+      w = v ((i + 1) + 1) ∨ w = v ((i - 1) - 1) := by
+  let u := v i
+  let s := v (i + 1)
+  have hus : p u ≠ p s := hp.ne (hv.ne (cyclic_three_distinct hh i).1)
+  let L := dist (p u) (p s)
+  have hL : 0 < L := dist_pos.mpr hus
+  let M := fun k => edgeCoordinate (p u) (p s) (p k)
+  let r := pairDist p ij / L
+  have hr : 0 < r := div_pos (pairDist_pos p hp hmin.1) hL
+  have hMu : M u = 0 := edgeCoordinate_self _ _
+  have hMs : M s = 1 := edgeCoordinate_axis _ _ hus
+  have hMn (a : Fin n) : ‖M a‖ = dist (p u) (p a) / L :=
+    edgeCoordinate_norm _ _ _ hus
+  have hMd (a b : Fin n) : dist (M a) (M b) = dist (p a) (p b) / L :=
+    edgeCoordinate_dist _ _ _ _ hus
+  let e := hullEdgeDirection p v i
+  let Z := fun j => hullEdgeDirection p v j / e
+  have he : e ≠ 0 := hullEdgeDirection_ne_zero p hp v hv hh i
+  have henorm : ‖e‖ = L := by
+    change ‖pointToComplex (p s - p u)‖ = L
+    rw [pointToComplex.norm_map]
+    simp only [L, dist_eq_norm, norm_sub_rev]
+  have hZnorm (j : Fin h) : r ≤ ‖Z j‖ := by
+    have hsep := isMinPair_le_dist p hmin (hv.ne (cyclic_three_distinct hh j).1)
+    dsimp [Z, r]
+    rw [norm_div, henorm, hullEdgeDirection, pointToComplex.norm_map]
+    apply div_le_div_of_nonneg_right _ hL.le
+    simpa only [dist_eq_norm, norm_sub_rev] using hsep
+  have hZsub (j : Fin h) : M (v (j + 1)) - M (v j) = Z j := by
+    dsimp [M, Z, e, u, s]
+    rw [edgeCoordinate_sub]
+    rfl
+  obtain ⟨hi, hm1, hm2, hp1, hp2⟩ :=
+    tight_hull_five_turns_of_not_bad p v hv i hgood
+  have hargs := tight_hull_nearby_edge_args p hp v hv hh i hpos hi hm1 hm2 hp1 hp2
+  have hZbounds (j : Fin h)
+      (hj : j = i ∨ j = i + 1 ∨ j = (i + 1) + 1 ∨ j = i - 1 ∨
+        j = (i - 1) - 1 ∨ j = ((i - 1) - 1) - 1) :
+      (99 / 100 : ℝ) * r ≤ (Z j).re ∧ |(Z j).im| ≤ (Z j).re / 30 := by
+    have ha : |(Z j).arg| ≤ Real.pi / 600 := by
+      rcases hj with rfl | hj
+      · change |(e / e).arg| ≤ Real.pi / 600
+        rw [div_self he, Complex.arg_one, abs_zero]
+        positivity
+      · exact hargs j hj
+    have hb := small_arg_projection (Z j) ha
+    exact ⟨by linarith [hZnorm j, hb.1], hb.2⟩
+  have hside (j : Fin h) (k : Fin n) :
+      0 ≤ complexTurn (M (v j)) (M (v (j + 1))) (M k) := by
+    have ht := edgeCoordinate_complexTurn_mul_dist_sq (p u) (p s)
+      (p (v j)) (p (v (j + 1))) (p k) hus
+    have hs := hsupport j k
+    have hLsq : 0 < dist (p u) (p s) ^ 2 := sq_pos_of_pos hL
+    change complexTurn (M (v j)) (M (v (j + 1))) (M k) * _ = _ at ht
+    nlinarith only [ht, hs, hLsq]
+  obtain ⟨j, huj⟩ := (mem_diameterEndpoints_iff_exists_adj p u).mp hu
+  obtain ⟨k, hwk⟩ := (mem_diameterEndpoints_iff_exists_adj p w).mp hw
+  obtain ⟨kl, hmax⟩ := exists_max_pair p (by omega)
+  let D := pairDist p kl / L
+  have hDlong : 10 * r < D := by
+    have ht := ten_mul_min_lt_max_of_large_card p hp hn hmin hmax
+    dsimp [r, D]
+    rw [← mul_div_assoc]
+    exact (div_lt_div_iff_of_pos_right hL).mpr ht
+  have hD : 0 < D := by linarith
+  have hmetric (a b : Fin n) : dist (M a) (M b) ≤ D := by
+    rw [hMd]
+    exact div_le_div_of_nonneg_right (isMaxPair_dist_le p hmax a b) hL.le
+  let A := M j
+  let B := M k - M w
+  have hA : ‖A‖ = D := by
+    rw [hMn, (diameterGraph_adj_iff_dist_eq p hp hmax u j).mp huj]
+  have hB : ‖B‖ = D := by
+    rw [show ‖B‖ = dist (M k) (M w) by simp only [B, dist_eq_norm], hMd,
+      dist_comm (p k) (p w), (diameterGraph_adj_iff_dist_eq p hp hmax w k).mp hwk]
+  have hWnorm : ‖M w‖ ≤ 2 * r := by
+    rw [hMn]
+    have hc := div_le_div_of_nonneg_right hclose hL.le
+    simpa only [r, mul_div_assoc] using hc
+  have hgap : ‖A - B‖ < 6 * D / 5 := by
+    have hnorm : ‖A - B‖ ≤ D + 2 * r := by
+      have hid : A - B = (M j - M k) + M w := by dsimp [A, B]; abel
+      rw [hid]
+      exact (norm_add_le _ _).trans
+        (add_le_add (by simpa only [dist_eq_norm] using hmetric j k) hWnorm)
+    linarith
+  have hAx : 0 < A.re := by
+    have hs := normalized_diameter_inward_strict p hp u s hus huj
+      (hv.ne (cyclic_three_distinct hh i).1).symm
+    change 0 < (M j - M u).re * (M s - M u).re +
+      (M j - M u).im * (M s - M u).im at hs
+    simpa only [hMu, hMs, sub_zero, Complex.one_re, Complex.one_im,
+      mul_one, mul_zero, add_zero] using hs
+  have hcone : 30 * A.re ≤ A.im := by
+    let P := M (v (i - 1))
+    have hprev : P = -Z (i - 1) := by
+      have hs := hZsub (i - 1)
+      simp only [sub_add_cancel] at hs
+      change M u - P = Z (i - 1) at hs
+      rw [hMu, zero_sub] at hs
+      simpa only [neg_neg] using congrArg Neg.neg hs
+    have hb := hZbounds (i - 1) (by tauto)
+    have hPx : P.re < 0 := by rw [hprev, Complex.neg_re]; nlinarith [hr, hb.1]
+    have hPy : 0 ≤ P.im := by
+      have hs := hside i (v (i - 1))
+      change 0 ≤ complexTurn (M u) (M s) P at hs
+      simpa only [hMu, hMs, complexTurn, sub_zero, map_one, one_mul] using hs
+    have hPslope : P.im ≤ -P.re / 30 := by
+      have hh := (abs_le.mp hb.2).1
+      simpa only [hprev, Complex.neg_re, Complex.neg_im, neg_neg] using (by linarith :
+        -(Z (i - 1)).im ≤ (Z (i - 1)).re / 30)
+    have hpi : v (i - 1) ≠ u := by
+      have hne := hv.ne (cyclic_three_distinct hh (i - 1)).1
+      simpa only [sub_add_cancel] using hne
+    have hs := normalized_diameter_inward_strict p hp u s hus huj hpi
+    change 0 < (M j - M u).re * (P - M u).re +
+      (M j - M u).im * (P - M u).im at hs
+    simp only [hMu, sub_zero] at hs
+    change 0 < A.re * P.re + A.im * P.im at hs
+    have hAy : 0 < A.im := by
+      by_contra hnot
+      have hy := mul_nonpos_of_nonpos_of_nonneg (le_of_not_gt hnot) hPy
+      have hx := mul_neg_of_pos_of_neg hAx hPx
+      linarith
+    have hy := mul_le_mul_of_nonneg_left hPslope hAy.le
+    by_contra hnot
+    have ht : A.im < 30 * A.re := lt_of_not_ge hnot
+    have htprod := mul_lt_mul_of_neg_right ht hPx
+    nlinarith only [hs, hy, htprod]
+  have hBy : 0 < B.im := close_diameter_axis_im_pos A B D hD hA hB hgap hAx.le hcone
+  let idx : ℕ → Fin h := fun t =>
+    if t = 0 then ((i - 1) - 1) - 1 else
+    if t = 1 then (i - 1) - 1 else if t = 2 then i - 1 else
+    if t = 3 then i else if t = 4 then i + 1 else
+    if t = 5 then (i + 1) + 1 else ((i + 1) + 1) + 1
+  let c : ℕ → ℂ := fun t => M (v (idx t))
+  have hnext (t : ℕ) (ht : t < 6) : idx (t + 1) = idx t + 1 := by
+    interval_cases t <;> simp [idx]
+  have hedgebound (t : ℕ) (ht : t < 6) :
+      (99 / 100 : ℝ) * r ≤ (c (t + 1)).re - (c t).re := by
+    have hb : (99 / 100 : ℝ) * r ≤ (Z (idx t)).re := by
+      apply (hZbounds (idx t) ?_).1
+      interval_cases t <;> simp [idx]
+    have heq := congrArg Complex.re (hZsub (idx t))
+    rw [← hnext t ht] at heq
+    simp only [Complex.sub_re] at heq
+    change (c (t + 1)).re - (c t).re = _ at heq
+    rw [heq]
+    exact hb
+  have hstep (t : ℕ) (ht : t < 6) : (c t).re < (c (t + 1)).re := by
+    have hb := hedgebound t ht
+    nlinarith only [hb, hr]
+  have hc3 : c 3 = 0 := by simpa [c, idx] using hMu
+  have hc0 : (c 0).re ≤ -(297 / 100 : ℝ) * r := by
+    have h0 := hedgebound 0 (by omega)
+    have h1 := hedgebound 1 (by omega)
+    have h2 := hedgebound 2 (by omega)
+    norm_num only [Nat.reduceAdd] at h0 h1 h2
+    rw [hc3, Complex.zero_re] at h2
+    linarith
+  have hc6 : (297 / 100 : ℝ) * r ≤ (c 6).re := by
+    have h3 := hedgebound 3 (by omega)
+    have h4 := hedgebound 4 (by omega)
+    have h5 := hedgebound 5 (by omega)
+    norm_num only [Nat.reduceAdd] at h3 h4 h5
+    rw [hc3, Complex.zero_re] at h3
+    linarith
+  have hWx : -(2 * r) ≤ (M w).re ∧ (M w).re ≤ 2 * r := by
+    have hab := (Complex.abs_re_le_norm (M w)).trans hWnorm
+    exact abs_le.mp hab
+  have hstrict (t : ℕ) (_ht : t ≤ 6) (hne : c t ≠ M w) :
+      0 < B.re * ((c t).re - (M w).re) + B.im * ((c t).im - (M w).im) := by
+    have hidx : v (idx t) ≠ w := fun heq => hne (by simp only [c, heq])
+    have hs := normalized_diameter_inward_strict p hp u s hus hwk hidx
+    simpa only [B, c, M, Complex.sub_re, Complex.sub_im] using hs
+  obtain ⟨t, ht, heq⟩ := supported_point_mem_increasing_chain c 6 (by omega)
+    (M w) B hstep (by linarith [hWx.1]) (by linarith [hWx.2])
+    (fun t ht => by simpa only [c, hnext t ht] using hside (idx t) w)
+    hBy hstrict
+  have hwidx : w = v (idx t) := hp (edgeCoordinate_injective (p u) (p s) hus heq)
+  interval_cases t
+  · rw [← heq] at hc0
+    linarith [hWx.1]
+  · exact Or.inr (Or.inr (Or.inr (Or.inr (by simpa [idx] using hwidx))))
+  · exact Or.inr (Or.inr (Or.inl (by simpa [idx] using hwidx)))
+  · exact Or.inl (by simpa [idx] using hwidx)
+  · exact Or.inr (Or.inl (by simpa [idx] using hwidx))
+  · exact Or.inr (Or.inr (Or.inr (Or.inl (by simpa [idx] using hwidx))))
+  · rw [← heq] at hc6
+    linarith [hWx.2]
+
+end Erdos957

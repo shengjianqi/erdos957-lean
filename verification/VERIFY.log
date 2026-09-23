@@ -1,0 +1,1233 @@
+⚠ [2799/2833] Replayed ShallowSourceTypes
+warning: ShallowSourceTypes.lean:94:4: Variable name `hud` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hud
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [2802/2833] Replayed ShallowCaseFourOrientation
+warning: ShallowCaseFourOrientation.lean:70:5: Variable name `x` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _x
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [2803/2833] Replayed SupportingFamilyShallowNormalForm
+warning: SupportingFamilyShallowNormalForm.lean:361:17: Variable name `hxdeg` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hxdeg
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: SupportingFamilyShallowNormalForm.lean:362:5: Variable name `hover` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hover
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: SupportingFamilyShallowNormalForm.lean:369:5: Variable name `hdiam` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hdiam
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [2806/2833] Replayed ShallowCase4ForeignCenterGeometry
+warning: ShallowCase4ForeignCenterGeometry.lean:20:25: Variable name `hv` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hv
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: ShallowCase4ForeignCenterGeometry.lean:20:53: Variable name `hh` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hh
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: ShallowCase4ForeignCenterGeometry.lean:770:35: Variable name `hik` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hik
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: ShallowCase4ForeignCenterGeometry.lean:788:7: Variable name `hkd` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hkd
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [2807/2833] Replayed ShallowCase4ReceiverSide
+warning: ShallowCase4ReceiverSide.lean:227:25: Variable name `hv` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hv
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: ShallowCase4ReceiverSide.lean:227:53: Variable name `hh` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hh
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: ShallowCase4ReceiverSide.lean:228:5: Variable name `hrange` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hrange
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: ShallowCase4ReceiverSide.lean:229:5: Variable name `hsupport` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hsupport
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [2813/2833] Replayed ShallowCase4TwoStepReduction
+warning: ShallowCase4TwoStepReduction.lean:166:5: Variable name `hfirstR` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hfirstR
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: ShallowCase4TwoStepReduction.lean:199:35: Variable name `hfirstL` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hfirstL
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: ShallowCase4TwoStepReduction.lean:480:5: Variable name `hfirstL` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hfirstL
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: ShallowCase4TwoStepReduction.lean:597:44: Unused tactic linter: `congr 1` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: ShallowCase4TwoStepReduction.lean:597:56: Unused tactic linter: `abel` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: ShallowCase4TwoStepReduction.lean:597:44: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: ShallowCase4TwoStepReduction.lean:597:56: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: ShallowCase4TwoStepReduction.lean:709:40: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ShallowCase4TwoStepReduction.lean:709:52: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [2819/2833] Replayed NeighborRoutingCapacity
+warning: NeighborRoutingCapacity.lean:80:43: This simp argument is unused:
+  dite_eq_left hud
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [f, localPacketCharge, LocalChargePacket.weight]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [2821/2833] Replayed BlockedNeighborRouting
+warning: BlockedNeighborRouting.lean:66:43: This simp argument is unused:
+  dite_eq_left hud
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [f, localPacketCharge, LocalChargePacket.weight]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [2831/2833] Replayed Erdos957Complete
+warning: Erdos957Complete.lean:40:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+Build completed successfully (2833 jobs).
+'Erdos957.mem_pairs_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.pairs_nonempty' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.pairDist_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.exists_min_pair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.exists_max_pair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.equal_radius_inner_le_half_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ExtremeDistances.product_bound_nat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.quantitative_of_geometric_estimate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.asymptotic_of_quantitative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.card_le_six_of_angles' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.equal_radius_arg_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.circle_card_le_six' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.nearestGraph_handshake' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.nearestGraph_degree_le_six' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.sMin_le_three_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.sMax_eq_card_edgeFinset' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.mem_diameterEndpoints_iff_degree_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.farthest_support_strict' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.isMaxPair_endpoints_extreme' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.diameterEndpointCount_le_hullVertexCount' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.hullVertexCount_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.isMaxPair_left_support_strict' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.equal_directed_diameters_coincide' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.translated_segments_have_long_cross_distance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.sum_of_opposite_sides_lt_crossing_diagonals' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.extreme_not_mem_convexHull_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.four_point_radon_partition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.extreme_radon_partition_card_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.four_extreme_points_have_crossing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.diameter_intersection_of_cross_intersection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.isMaxPair_segments_intersect' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.diameterGraph_segments_intersect' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.segments_disjoint_of_opposite_left_turns' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.exists_leftmost_diameter_neighbor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.card_edges_le_of_endpoint_selection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.sMax_le_diameterEndpointCount' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.sMax_le_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.product_bound_of_few_diameter_endpoints' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.quantitative_of_charging' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.asymptotic_of_charging' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.circle_card_le_three_in_halfplane' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.nearestGraph_weighted_handshake' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.nearestGraph_degree_le_three_of_diameterEndpoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.nearestGraph_weighted_handshake_of_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.nearestGraph_adj_iff_dist_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.six_angle_rigidity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.equal_radius_arg_gap_le_five_pi_div_three' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.dist_eq_radius_of_directionArg_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.circle_six_regular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.equal_radius_arg_gap_pi_antipodal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.nearestGraph_degree_six_regular' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.degree_six_edge_has_two_common_neighbors' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.degree_six_neighbor_has_antipode' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.equilateral_rhombus' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.degree_six_triangle_completion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.diameterEndpoint_not_midpoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.common_neighbor_degree_le_five' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.diameterEndpoint_next_to_six_degree_eq_three' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.diameterEndpoint_six_neighbor_common_degree_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.circle_three_order_in_halfplane' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.diameter_degree_three_neighbor_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.degree_three_middle_neighbor_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.degree_three_middle_neighbor_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.finite_degree_charge_accounting' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.finite_degree_charge_assignment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.nearestGraph_charge_assignment_accounting' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.ChargeCertificate.count_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.chargingEstimate_of_eventual_certificates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.quantitative_of_eventual_certificates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.card_large_turns_le_360' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.card_seven_neighborhoods_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.card_nonflat_neighborhoods_le_2520' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.mem_nonflat_neighborhoods_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.card_cyclic_nonflat_le_2520' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.mem_interior_convexHull_of_reflection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.degree_six_mem_interior_convexHull' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.grid_packing_le_1681' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.card_le_1681_of_diameter_le_ten_min' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.ten_mul_min_lt_max_of_large_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.chargingEstimate_of_large_scale_certificates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.hull_extreme_strict_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.hull_extreme_inward_normal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.hull_interior_nonempty_of_not_collinear' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.hull_extreme_radial_arg_injOn' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.hull_extreme_radial_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.convexHull_extremePoints_eq_of_finite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.image_hullVertexIndices_eq_extremePoints' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.convexHull_image_hullVertexIndices' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.affine_le_of_hullVertexIndices_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.linear_le_of_hullVertexIndices_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.collinear_mem_diameter_segment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.hullVertexCount_le_two_of_collinear' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.diameterEndpointCount_le_two_of_collinear' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.collinear_isMaxPair_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.sMax_le_one_of_collinear' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.collinear_product_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.collinear_large_regime_card_le_six' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.nearestGraph_degree_le_three_of_inward_normal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.nearestGraph_degree_le_three_of_hullVertex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.nearestGraph_hull_weighted_handshake' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.charging_bound_of_many_hull_vertices' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.product_bound_of_many_hull_vertices' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.linear_lt_bound_at_interior' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.hull_extreme_support_with_interior' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.extreme_affine_coefficients_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.affine_coordinates_of_turn' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.outside_chord_in_radial_sector' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.supporting_chord_of_empty_radial_sector' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.turn_eq_im_conj_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.im_conj_mul_eq_norm_mul_sin_arg_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.turn_pos_of_arg_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.turn_pos_of_wrapped_arg_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.radial_sector_arg_between' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.hull_adjacent_arg_gap_lt_pi' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.hull_arg_extremal_span_gt_pi' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.not_two_pos_turns_of_wrapped_arg_between' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.supporting_chord_of_adjacent_args' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.supporting_chord_of_extremal_args' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.hull_cyclic_supporting_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.exists_hull_cyclic_supporting_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.hull_extreme_triple_not_collinear' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.supporting_edge_strict' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.collinear_of_hullVertexCount_le_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.hullVertexCount_ge_three_of_noncollinear' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.cyclic_index_cases' depends on axioms: [propext, Quot.sound]
+'Erdos957.cyclic_three_distinct' depends on axioms: [propext, Quot.sound]
+'Erdos957.hull_cycle_edge_turn_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.hull_cycle_radial_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.hull_cycle_radial_turn_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.complex_arg_sub_one_between' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.arg_div_eq_of_short_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.edge_ratio_arg_between' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.edge_lift_coe_angle' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.sin_sub_pos_of_im_conj_mul_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.turn_eq_im_conj_mul_edges' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.sum_wrapLift_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.lt_wrapLift_of_strictMono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.cyclic_angle_gap_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.cyclic_angle_gaps_pos_lt_pi' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.arg_div_eq_wrapLift_sub_of_cross_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.sum_arg_div_cyclicNext' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.polygon_turning_angles' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.polygon_vertex_exterior_angles' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.hull_edges_have_lifted_angles' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.hull_exterior_angles_of_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.exists_hull_exterior_angles_and_exception_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.hullBadVertices_card_le_2520' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.hullBadVertices_subset_hullVertexIndices' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.hull_vertex_not_bad_iff_all_seven_flat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.exists_hull_bad_vertices_of_noncollinear' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.complex_interior_angle_eq_pi_sub_exterior' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.complex_interior_angle_gt_179_of_exterior_lt_one_degree' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.point_interior_angle_eq_pi_sub_exterior' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.point_interior_angle_gt_179_of_exterior_lt_one_degree' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.sine_gap_ge_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.middle_sine_gaps_ge_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.triangle_strict_turns_mem_interior' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.rotatedCoordinate_arg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.rotatedCoordinate_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.rotatedCoordinate_norm_of_dist' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.rotatedCoordinate_re' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.rotatedCoordinate_im' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.rotatedCoordinate_re_of_dist' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.rotatedCoordinate_im_of_dist' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.rotatedCoordinate_axis' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.rotatedCoordinate_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.rotatedCoordinate_turn' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.rotatedCoordinate_turn_pos_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.complexTurn_cross_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.complexTurn_cyclic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.circle_three_arg_turn_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.abs_complex_cross_le_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.circle_middle_far_axis_turns' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.circle_middle_mem_interior_triangle' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.diameter_degree_three_middle_neighbor_mem_interior' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.diameter_degree_three_central_neighbor_mem_interior' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.interior_not_hullVertexIndices' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.interior_not_diameterEndpoints' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.diameter_degree_three_central_receiver_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.rotatedCoordinate_re_eq_inner' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.central_neighbor_inner_gt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.common_neighbor_degree_le_five_of_central' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.LocalChargePacket.sum_weight_outside' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.LocalChargePacket.weight_le_degree_slack' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.LocalChargePacket.weight_le_local_capacity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.LocalChargePacket.positive_reachable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.localChargePacket_of_six_neighbor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.localChargePacket_of_low_degree_neighbor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.localPacketCharge_capacity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.chargeCertificate_of_localPackets' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.charging_bound_of_localPackets' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.localChargePacket_of_central_low_degree' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.localChargePacket_of_central_common' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.card_le_three_of_separated_in_short_interval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.complex_unit_circle_card_le_three_in_short_arg_interval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.shifted_unit_circle_distance_sq_lt_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.unit_circle_shift_dist_lt_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.unit_arg_lt_pi_of_one_le_norm_add_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.unit_two_circle_neighbors_card_le_three' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.edgeCoordinate_self' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.edgeCoordinate_axis' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.edgeCoordinate_dist' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.edgeCoordinate_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.edgeCoordinate_sub_one_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.edgeCoordinate_arg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.degree_five_central_neighbor_has_common_neighbor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.localChargePacket_of_central_degree_five' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.localChargePacket_of_unique_central_neighbor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.edgeCoordinate_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.edgeCoordinate_add_eq_of_add_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.edgeCoordinate_im_mul_dist_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.edgeCoordinate_im_nonpos_of_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.unit_triangle_below_real_axis' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.hull_extreme_not_opposite_ray' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.hull_extreme_no_normalized_beyond' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.hull_extreme_normalized_beyond_im_neg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.degree_six_double_extension' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.degree_six_extension_slack_or_double' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.degree_six_shared_edge_extension' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.card_le_two_of_separated_in_Ico' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.complex_unit_card_le_two_in_right_wedge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.truncated_circle_direction_arg_range' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.truncated_circle_card_le_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.normalized_shared_receiver_degree_le_four' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.degree_six_shared_edge_low_degree_extension' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.shared_outer_neighbor_degree_le_five' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.shared_hexagon_base_coordinates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.shared_hexagon_t2_coordinate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.shared_hexagon_d_coordinate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.edgeCoordinate_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.edgeCoordinate_complexTurn_mul_dist_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.edgeCoordinate_complexTurn_pos_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.normalized_triangle_mem_interior_configuration' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.normalized_triangle_mem_interior_convexHull' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.long_triangle_rectangle_strict_turns' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.diameter_partner_re_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.diameter_partner_depth_gt_nine' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.normalized_diameter_dist_le_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.normalized_diameter_norm_gt_ten' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.NormalizedHullSpan.receiver_mem_interior' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.hexagon_receiver_sites_in_region' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.localChargePacket_of_shared_six_hull_span' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.edgeCoordinate_lineMap_self' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.normalizedHullSpan_of_shallow_rays' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.card_large_turns_le_3600' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.card_cyclic_tight_nonflat_le_25200' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.tightHullBadPositions_card_le_25200' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.tightHullBadVertices_card_le_25200' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.tightHullBadVertices_subset_hullVertexIndices' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.tight_hull_vertex_not_bad_iff_all_seven_flat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.exists_tight_hull_bad_vertices_of_noncollinear' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.tight_hull_five_turns_of_not_bad' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.small_arg_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.small_arg_unit_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.arg_div_short_chain_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.arg_div_short_chain_three' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.abs_arg_div_reverse_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.short_chain_forward_reverse_abs_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.hullEdgeDirection_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.hullEdgeDirection_div_norm_ge_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.normalized_hull_edge_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.normalized_hull_left_two_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.normalized_hull_right_three_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.normalizedHullSpan_of_nearby_edge_args' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.tight_hull_nearby_edge_args' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.normalizedHullSpan_of_tight_flat_vertex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.localChargePacket_of_tight_flat_shared_six' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.exists_tight_shared_six_packets_of_noncollinear' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.sharedD_of_not_uniqueD' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.donorFiveWay_of_degree_le_six' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.donorContext_of_large_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.donor_resolution_of_large_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.chargeCertificate_of_weighted_localPackets' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.charging_bound_of_weighted_localPackets' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.localPacketCharge_sum_roles' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.supporting_hull_chord_eq_successor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.supporting_hull_chord_eq_predecessor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.supporting_hull_chord_cyclic_adjacent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.localChargePacket_of_supported_shared_six_of_large_card' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.short_two_vectors_chord' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.short_three_vectors_chord' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.short_hull_two_edge_chord' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.short_hull_three_edge_chord' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.tight_flat_hull_chord_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.tight_flat_two_step_not_nearest' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.tight_flat_three_step_no_common_nearest' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.degree_six_neighbor_central_angles' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.donorContext_packet_or_nearest_shared' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.donor_packet_or_nearest_shared_of_large_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.central_inner_ge_three_quarters' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.central_antipodes_diameter_le_four_min' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.no_two_central_antipodes_at_large_scale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.dist_sq_eq_three_radius_sq_of_directionArg_two_step' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.degree_six_two_step_dist_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.degree_six_three_step_antipodal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.degree_six_neighbor_distance_classification' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.degree_six_nonantipodal_neighbor_dist_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.tight_flat_donor_packet_or_shared_hull_witness' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.degree_six_diameter_neighbors_not_antipodal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.degree_six_diameter_neighbors_dist_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.tight_flat_two_step_no_shared_six' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.diameter_axes_inner_pos_of_three_mul_dist_lt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.hull_chord_successor_turn_neg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.hull_chord_predecessor_turn_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.nonadjacent_hull_chord_separates_neighbors' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.hull_chord_eq_successor_of_local_turn' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.hull_chord_eq_predecessor_of_local_turn' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.hull_chord_adjacent_of_neighbors_same_side' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.hull_chord_support_of_neighbors_same_side' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.shared_five_six_edge_has_low_common_neighbor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.shared_five_diameter_triangle_low_common_neighbor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.localChargePacket_of_shared_five_six_edge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.short_chord_opposite_point_axes_inner_neg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.short_chord_opposed_sides_axes_inner_neg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.short_chord_point_same_side' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.short_chord_point_strict_same_side' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.normalized_short_diameter_chord_strict_same_side' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.short_diameter_chord_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.nearest_diameter_chord_support_of_large_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.nearest_diameter_endpoints_cyclic_adjacent_of_large_card' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.donor_packet_or_adjacent_shared_of_large_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.tight_flat_donor_packet_or_five_or_backward_six' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.pairDist_eq_of_dist_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.isMinPair_iff_of_dist_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.isMaxPair_iff_of_dist_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.nearestGraph_eq_of_dist_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.diameterGraph_eq_of_dist_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.nearestGraph_degree_eq_of_dist_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.diameterEndpoints_eq_of_dist_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.chargeDonors_eq_of_dist_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.LocalChargePacket.of_dist_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.LocalChargePacket.of_dist_eq_weight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.planeReflection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.pointToComplex_planeReflection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.planeReflection_apply_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.planeReflection_apply_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.turn_planeReflection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.planeReflection_planeReflection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.hullVertexIndices_planeReflection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.reversedHullCycle' depends on axioms: [propext]
+'Erdos957.reversedHullCycle_injective' depends on axioms: [propext, Quot.sound]
+'Erdos957.reversedHullCycle_neg' depends on axioms: [propext, Quot.sound]
+'Erdos957.reversedHullCycle_neg_successor' depends on axioms: [propext, Quot.sound]
+'Erdos957.reversedHullCycle_range' depends on axioms: [propext, Quot.sound]
+'Erdos957.reflectedHull_range' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.hullEdgeDirection_planeReflection_reversed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.complex_arg_conj_inv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.hullExteriorAngle_planeReflection_reversed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.reflectedHull_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.tightHull_not_bad_planeReflection_reversed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.localChargePacket_of_tight_flat_shared_six_backward' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.localChargePacket_of_backward_shared_six_of_large_card' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.tight_flat_donor_packet_or_shared_five' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.nearestGraph_common_neighbors_not_adjacent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.diameterEndpoint_triangle_neighbor_degree_le_five' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.shared_five_six_not_adjacent_diameter_triangle_endpoints' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.shared_five_six_neighbor_ne_diameter_triangle_endpoints' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.equilateral_other_neighbor_rectangle' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.long_triangle_shared_five_rectangle_strict_turns' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.NormalizedHullSpan.shared_five_receiver_mem_interior' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.shared_triangle_other_neighbor_mem_interior' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.shared_triangle_other_neighbor_not_diameter' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.localChargePacket_of_shared_five_hull_span' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.localChargePacket_of_tight_flat_shared_five' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.localChargePacket_of_forward_shared_five_of_large_card' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.localChargePacket_of_tight_flat_shared_five_backward' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.localChargePacket_of_backward_shared_five_of_large_card' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.tight_flat_donor_has_local_packet' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.localChargePackets_of_tight_flat_hull' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.exists_local_packets_of_large_noncollinear' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.exists_uniform_local_packets' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.LocalChargePacket.positive_dist_le_two_min' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.LocalChargePacket.sources_dist_le_four_min' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.localPacketCharge_pos_dist_le_two_min' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.localPacketCharge_sources_dist_le_four_min' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.diameter_axes_inner_pos_of_dist_le_four_min' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.localPacketCharge_pos_mem_diameterEndpoints' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.localPacketCharge_source_axes_inner_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.localPacketCharge_source_axes_inner_pos_of_large_card' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.localPacketCharge_sources_exist_compatible_diameter_axes' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.shared_five_diameter_triangle_common_neighbor_degree_le_five' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.shared_five_diameter_triangle_two_low_common_neighbors' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.shared_triangle_neighbor_receiver_rectangle' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.three_lower_unit_neighbors_has_deep_point' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.equilateral_other_neighbor_im_le_neg_height' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.shared_five_deepest_neighbor_height' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.sharedFivePairSelection_of_hull_span' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.sharedFivePairSelection_of_tight_flat_hull' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.SharedFivePairSelection.pair_weight_le_capacity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.SharedFivePairSelection.central_weight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.SharedFivePairSelection.noncentral_weight_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.certifiedCentralPacket_of_uniqueD' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.CertifiedCentralPacket.positive_dist_eq_min' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.CertifiedCentralPacket.positive_central_coordinate_norm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.CertifiedCentralPacket.positive_central_coordinate_square' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.SharedSixPacketChoice.right_coordinate_cases' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.SharedSixPacketChoice.site_weights' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.sharedSixPacketChoice_of_hull_span' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.sharedSixPacketChoice_of_tight_flat_hull' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.sharedSixPacketChoice_of_large_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.edgeCoordinate_swap_base' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.edgeCoordinate_planeReflection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.edgeCoordinate_planeReflection_swap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.SharedFivePairSelection.of_reflection_swap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.sharedFivePairSelection_of_either_tight_flat_endpoint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.selectedSharedFiveCenter' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.selectedSharedFiveCenter_proof_independent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.SharedFiveCenterChoice.diameter_neighbor_cases' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.SharedFiveCenterChoice.endpoint_pair_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.SharedFiveCenterChoice.packetFor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.SharedFiveCenterChoice.charge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.SharedFiveCenterChoice.packetFor_weight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.SharedFiveCenterChoice.sum_charge_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.SharedFiveCenterChoice.sum_charge_le_pair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.SharedFiveCenterChoice.sum_charge_le_capacity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.SharedFiveCenterChoice.noncentral_sum_charge_le_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.sharedFiveCenterChoice_nonempty_of_either_tight_flat_endpoint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.certifiedLowCentralPacket_of_context' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.CertifiedLowCentralPacket.weight_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.CertifiedLowCentralPacket.positive_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.CertifiedLowCentralPacket.positive_geometry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.edgeCoordinate_cross_eq_turn_div' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.shifted_unit_circle_arg_lt_pi_div_three' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.central_common_neighbor_nearest_of_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.close_diameter_axis_im_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.supported_point_eq_edge_endpoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.increasing_chain_brackets' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.supported_point_mem_increasing_chain' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.tight_flat_nearby_diameter_endpoint_local' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.upper_circle_middle_re_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.central_neighbor_re_bound_of_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.flat_far_chord_not_on_central_circle' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.tight_flat_central_neighbor_not_adjacent_two_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.tight_flat_shared_central_neighbor_adjacent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.tight_flat_shared_central_neighbor_nearest' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.tight_flat_sharedD_has_nearest_triangle' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.mem_interior_convexHull_planeReflection_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.ReflectedSharedSixPacketChoice.packet' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.ReflectedSharedSixPacketChoice.packet_sites' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.ReflectedSharedSixPacketChoice.packet_weight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.ReflectedSharedSixPacketChoice.original_neighbors' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.ReflectedSharedSixPacketChoice.original_identities' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.ReflectedSharedSixPacketChoice.original_coordinates' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.ReflectedSharedSixPacketChoice.receiver_rule' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.ReflectedSharedSixPacketChoice.receivers_in_original_region' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.ReflectedSharedSixPacketChoice.receivers_in_original_interior' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.ReflectedSharedSixPacketChoice.site_weights' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.reflectedSharedSixPacketChoice_of_tight_flat_hull' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.reflectedSharedSixPacketChoice_of_large_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.CertifiedDonorRule.packet' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.CertifiedDonorRule.sharedFive_weight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.certified_direct_rule_or_shared' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.certifiedDonorRule_of_adjacent_shared' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.CertifiedDonorAssignment.packet' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.tight_flat_donor_has_certified_rule' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.certifiedDonorRules_of_tight_flat_hull' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.exists_certified_rules_of_large_noncollinear' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.exists_uniform_certified_rules' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.CertifiedDonorRule.positive_adj_or_shared_base' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.edgeCoordinate_mul_base_change' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.certifiedDonorRule_supporting_rectangle' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.extended_small_arg_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.tiny_arg_projection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.arg_div_short_chain_four' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.tight_hull_outer_turns_of_not_bad' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.tight_hull_eight_edge_args' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.tight_hull_predecessor_slope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.four_distance_diameter_axis_im_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.tight_flat_four_distance_diameter_endpoint_local' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.hullSourceNeighborhood' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.mem_hullSourceNeighborhood_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.hullSourceNeighborhood_card_le_seven' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.localPacketCharge_sum_eq_neighborhood' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.localPacketCharge_active_card_le_neighborhood' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.packet_source_horizontal_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.certifiedFamilyPackets' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.localPacketCharge_pos_donor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.certified_rule_common_receiver_source_local' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.certified_family_positive_source_local' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.certified_family_charge_sum_eq_seven_positions' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.certified_family_positive_sources_card_le_seven' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.tight_flat_seven_vertex_im_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.tight_flat_deep_receiver_no_diameter_neighbor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.separated_circle_card_le_two_in_thin_strip' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.tight_flat_diameter_neighbors_card_le_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.directChargeSources' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.indirectChargeSources' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.directPacketChargeTotal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.indirectPacketChargeTotal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.localPacketCharge_sum_eq_direct_add_indirect' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.directPacketChargeTotal_le_capacity_of_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.total_capacity_iff_indirect_le_remaining' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.indirectPacketChargeTotal_eq_zero_of_positive_adj' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.directPacketChargeTotal_eq_zero_of_no_diameter_neighbor' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.tight_flat_direct_sources_card_le_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.tight_flat_direct_charge_le_capacity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.tight_flat_total_capacity_iff_indirect' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.deep_coordinate_mul_im_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.tight_flat_deep_base_receiver_no_diameter_neighbor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.sharedFive_bottom_no_diameter_neighbor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.SharedSixPacketChoice.right_deep_or_degree_le_four' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.ReflectedSharedSixPacketChoice.right_deep_or_degree_le_four' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.sharedSix_right_no_diameter_neighbor_or_degree_le_four' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.reflectedSharedSix_right_no_diameter_neighbor_or_degree_le_four' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.supportingHeight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.shifted_unit_neighbor_arg_between' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.short_arg_cone_mul_im_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.central_noncommon_neighbor_im_ge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.equilateral_mul_im_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.central_common_neighbor_im_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.common_neighbor_supporting_height_ge_noncommon' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.degree_five_central_has_supporting_highest_common' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.CertifiedCentralPacket.five_supporting_global_maximum' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.hullSupportingHeight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.hullSupportingHeight_at' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.CertifiedDonorRule.five_supporting_global_maximum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.supportingCertifiedDonorRules_of_tight_flat_hull' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.CertifiedDonorAssignment.five_hull_supporting_global_maximum' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.supportingCertifiedDonorRules_five_global_maximum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.tight_flat_deep_base_receiver_depth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.donor_nearest_triangle_contains_central' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.donor_central_edge_not_supporting' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.supported_nearest_triangle_center_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.high_degree_supported_triangle_centers_eq_of_diameterEndpoint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.deep_disk_strip_card_le_three' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.tight_flat_deep_nearby_diameter_endpoints_card_le_three' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.tight_flat_deep_base_nearby_diameter_card_le_three' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.sharedFive_bottom_nearby_diameter_card_le_three' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.sharedFive_same_bottom_endpoint_pairs_overlap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.sharedFive_same_bottom_centers_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.unit_circle_two_upper_blockers_im_nonpos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.SharedSixPacketChoice.lower_adj_above_cases' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.SharedSixPacketChoice.outer_not_sharedFive_center' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.SharedSixPacketChoice.sharedFive_bottom_ne_lower_of_center_above' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.tight_flat_sharedSix_selected_lower_ne_sharedFive_bottom' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.assignedDonorCenter' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.centerChargeSources' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.centerPacketChargeTotal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.centerIndirectPacketChargeTotal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.assignedDonorCenter_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.certified_charge_sum_eq_center_groups' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.certified_indirect_sum_eq_center_groups' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.CertifiedDonorRule.weight_eq_selected_sharedFive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.centerPacketChargeTotal_eq_sharedFive_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.SharedFiveCenterChoice.endpoint_actual_center_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.mem_centerChargeSources_iff_sharedFive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.centerPacketChargeTotal_sharedFive_eq_eligible_pair' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.centerPacketChargeTotal_sharedFive_le_capacity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.centerPacketChargeTotal_sharedFive_noncentral_le_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.centerPacketChargeTotal_sharedFive_low_bottom_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.CertifiedDonorRule.left_adj' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.CertifiedDonorRule.weight_le_one_of_not_adj' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.certified_family_charge_le_one_of_not_adj' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.certified_family_indirect_sum_le_positive_sources_card' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.certified_family_total_le_positive_sources_card_of_no_diameter_neighbor' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.certified_family_deep_receiver_total_le_three' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.certified_family_deep_receiver_capacity_of_degree_le_four' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.certified_family_total_le_nearby_diameter_card_of_no_diameter_neighbor' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.certified_family_sharedFive_bottom_total_le_three' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.certified_family_sharedFive_bottom_capacity_of_degree_le_four' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.certified_family_deep_base_receiver_capacity_of_degree_le_four' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.separated_twice_radius_circle_card_le_two_in_thin_strip' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.tight_flat_deep_exact_two_diameter_endpoints_card_le_two' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.certified_family_deep_receiver_total_le_two_of_exact_distance' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.certified_family_deep_overload_saturates_nearby' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.certified_family_deep_overload_has_nonexact_source' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.SharedSixPacketChoice.center_adj_partner' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.SharedSixPacketChoice.right_re_ge_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.ReflectedSharedSixPacketChoice.center_adj_partner' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.ReflectedSharedSixPacketChoice.right_re_ge_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.CertifiedDonorRule.six_indirect_partner' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.certified_six_indirect_sources_eq_of_card_le_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.tight_flat_certified_six_indirect_sources_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.tight_flat_shared_partner_context_center_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.CertifiedDonorRule.sharedFive_available_of_indirect' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.certified_sharedFive_paired_indirect_receiver' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.CertifiedDonorRule.indirect_receiver_eq_right' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.CertifiedDonorRule.center_degree_five_or_six_of_indirect' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.SharedSixPacketChoice.degree_five_right_lower_or_exact_two' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.ReflectedSharedSixPacketChoice.degree_five_right_lower_or_exact_two' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.CertifiedDonorRule.indirect_degree_five_exact_or_nearby_partner' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.certified_family_deep_five_overload_has_sharedFive_pair' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.certified_family_deep_five_capacity_of_no_sharedFive_pair' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.certified_family_sharedSix_selected_lower_capacity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.SharedFiveCenterChoice.reflection_swap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.SharedFiveCenterChoice.reflection_swap_bottom' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.tight_flat_reflectedSharedSix_selected_lower_ne_sharedFive_bottom' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.certified_family_reflectedSharedSix_selected_lower_capacity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.SharedSixPacketChoice.degree_five_right_second_extension_data' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.ReflectedSharedSixPacketChoice.degree_five_right_second_extension_data' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.SharedSixPacketChoice.partner_eq_successor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.SharedFiveCenterChoice.left_eq_cyclic_successor_of_right' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.SharedSixPacketChoice.source_neighbor_cases_of_context' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.SharedSixPacketChoice.sharedFive_left_strict_source_distance' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.SharedSixPacketChoice.second_extension_sharedFive_endpoint_strip' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.SharedSixPacketChoice.second_extension_sharedFive_center_distances' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.SharedFiveCenterChoice.center_coordinate_with_height' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.SharedSixPacketChoice.second_extension_sharedFive_scalar_core' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.tight_flat_sharedSix_second_extension_ne_sharedFive_bottom_of_left_donor' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.certified_family_sharedSix_second_extension_capacity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.ReflectedSharedSixPacketChoice.second_extension_sharedFive_center_distances' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.supported_triangle_third_neighbor_re_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.extension_third_neighbor_in_blocking_disks' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.extension_shared_five_left_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.extension_outer_third_neighbor_forces_unit_source_distance' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.extension_shared_five_third_neighbor_impossible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.tight_flat_reflectedSharedSix_second_extension_ne_sharedFive_bottom_of_right_donor' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.certified_family_reflectedSharedSix_second_extension_capacity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.certified_family_sharedSix_degree_five_right_capacity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.certified_family_reflectedSharedSix_degree_five_right_capacity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.certified_family_capacity_of_indirect_sharedSix_source' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.certified_family_capacity_of_indirect_reflectedSharedSix_source' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.certified_family_capacity_of_indirect_degree_six_center_source' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.certified_family_deep_five_overload_active_center_degree_five' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.sharedFive_centers_eq_of_endpoint_overlap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.sharedFive_endpoint_pairs_overlap_of_common_receiver' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.certified_family_deep_five_total_le_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.certified_family_deep_five_capacity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.CertifiedDonorRule.indirect_degree_five_receiver_adj_center' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.certified_family_receiver_total_eq_zero_of_degree_six' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.certified_indirect_same_center_eq_of_receiver_has_diameter_neighbor' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.centerIndirectPacketChargeTotal_le_one_of_receiver_has_diameter_neighbor' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.certified_family_degree_five_overload_indirect_center_degree_five' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.certified_indirect_degree_five_center_mixed_forces_six_bottom' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.certified_family_charge_le_one_of_receiver_degree_five' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.certified_family_degree_five_overload_active_card_ge_three' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.certified_family_degree_five_mixed_overload_indirect_forces_six_bottom' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.certified_family_degree_five_overload_has_indirect_source' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.certified_family_degree_five_mixed_overload_has_six_bottom_source' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.certified_family_degree_five_mixed_overload_has_pairwise_local_triple' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.sixBottomIndirectSource_iff_active_not_adj_of_degree_five_overload' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.exists_sixBottomIndirectSource_of_degree_five_overload' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.active_source_direct_or_sixBottom' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.degree_five_mixed_overload_has_typed_local_triple' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.distinct_mem_hullSourceNeighborhood_iff_six_offsets' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.degree_five_mixed_overload_has_typed_offset_triple' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.typed_pair_four_cases' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.CertifiedDonorAssignment.direct_degree_five_paper_four_way' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.SixBottomIndirectSource.paperCase4' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.DirectActiveSource.paper_four_way_of_degree_five' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.direct_or_sixBottom_to_paperTypedSource' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.PaperTypedSource.paper_four_way' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.degree_five_mixed_overload_has_paper_case_triple' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.degree_five_mixed_overload_has_case4_anchored_paper_triple' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.SixBottomIndirectSource.oriented_selected_pair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.SixBottomIndirectSource.has_orientation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.degree_five_mixed_overload_has_oriented_case4_paper_triple' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.supporting_family_case3_global_maximum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.supporting_family_degree_five_mixed_overload_has_oriented_case4_triple' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.paperFourWaySource_to_supporting' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.supporting_family_degree_five_overload_has_enriched_case4_triple' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.directActiveSource_to_activeSupportingPaper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.sixBottomSource_to_activeSupportingPaper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.direct_or_sixBottom_to_activeSupportingPaper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.supporting_family_degree_five_overload_has_lossless_case4_triple' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.supporting_family_degree_five_mixed_capacity_of_triple_exclusion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.SixBottomIndirectSource.anchor_center_group_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.SixBottomIndirectSource.active_same_center_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.SixBottomIndirectSource.active_assigned_center_eq_implies_source_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.supporting_case4_anchor_center_ne_of_distinct_active' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.supporting_family_degree_five_overload_triple_has_foreign_centers' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.activeSupporting_same_center_distinct_forces_sharedD' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.supporting_overload_same_center_pair_forces_case4_central_receiver' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.edgeCoordinate_affine_change' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.hullEdgeDirection_div_norm_eq_one_of_nearest' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.equilateral_height_lt_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.unit_height_mul_small_im_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.unit_height_mul_small_im_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.sharedFive_centers_forward_two_edges_not_nearest' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.sharedFive_centers_forward_three_edges_not_nearest' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.sharedFive_centers_backward_two_edges_not_nearest' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.sharedFive_centers_backward_three_edges_not_nearest' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.SharedFiveCenterChoice.oriented_edge_of_two_endpoints' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.local_edge_start_relative_to_forward_anchor' depends on axioms: [propext, Quot.sound]
+'Erdos957.local_edge_start_relative_to_backward_anchor' depends on axioms: [propext, Quot.sound]
+'Erdos957.supporting_overload_same_center_pair_gives_disjoint_sharedFive_centers' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.supporting_case4_same_center_pair_impossible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.supporting_case4_actual_triple_centers_pairwise_distinct' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.SixBottomIndirectSource.oriented_receiver_secondary' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.SixBottomIndirectSource.receiver_adj_center_and_bottom' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.SixBottomIndirectSource.oriented_receiver_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.supporting_family_overload_has_side_resolved_distinct_case4_triple' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.SixBottomIndirectSource.partner_assigned_center_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.supporting_case4_anchor_partner_not_additional_source' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.forward_residual_offset_of_local_ne_partner' depends on axioms: [propext]
+'Erdos957.backward_residual_offset_of_local_ne_partner' depends on axioms: [propext]
+'Erdos957.supporting_family_overload_has_partner_free_case4_triple' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.certified_family_charge_eq_one_of_pos_degree_five' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.certified_family_degree_five_charge_eq_active_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.certified_family_degree_five_capacity_iff_active_card_le_two' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.sharedFive_centers_forward_three_edges_no_common_receiver' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.sharedFive_centers_backward_three_edges_no_common_receiver' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.sharedFive_centers_forward_three_edges_no_common_active_receiver' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.sharedFive_centers_backward_three_edges_no_common_active_receiver' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.CertifiedDonorRule.sharedFive_available_of_paperCase4' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.CertifiedDonorAssignment.paperCase4_positive_center_or_adj' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.CertifiedDonorAssignment.paperCase4_oriented_selected_pair' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.forward_case4_plus_three_forces_inward_pair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.forward_case4_plus_two_forces_two_step_pair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.forward_case4_minus_one_forces_two_step_pair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.forward_case4_minus_two_forces_two_step_pair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.SharedFiveCenterChoice.reflection_swap_left_index' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.SharedFiveCenterChoice.reflection_swap_right_index' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.backward_case4_minus_three_forces_inward_pair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.backward_case4_minus_two_forces_two_step_pair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.forward_case4_same_side_two_case4_sources_impossible' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.backward_case4_same_side_two_case4_sources_impossible' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.forward_plus_three_active_case4_forces_inward' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.SharedFiveCenterChoice.center_coordinate_at_height' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.SharedFiveCenterChoice.center_in_sharedSix_frame' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.SharedFiveCenterChoice.support_inequality_in_sharedSix_frame' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.SharedSixPacketChoice.second_extension_sharedFive_scalar_distances' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.forward_case4_minus_one_minus_two_sources_impossible' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.tight_flat_remote_not_adj_of_receiving_strip' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.tight_flat_two_direct_competitors_impossible_of_strip' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.SixBottomIndirectSource.forward_receiving_strip' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.SixBottomIndirectSource.forward_direct_competitor_offset' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.active_paper_cases123_direct_of_overload' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.SixBottomIndirectSource.forward_two_direct_competitors_impossible' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.BackwardCase4ResidualOffset.neg_forward' depends on axioms: [propext, Quot.sound]
+'Erdos957.SixBottomIndirectSource.backward_two_direct_competitors_impossible' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.supporting_case4_triple_has_second_indirect' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.supporting_family_overload_has_two_indirect_sources' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.nearest_common_neighbors_dist_sq_le_three' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.two_six_bottoms_force_antipodal_centers' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.thin_strip_pair_centers_separated' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.SixBottomIndirectSource.two_centers_close_or_antipodal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.card_le_four_of_separated_in_Ico' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.card_le_four_of_separated_in_short_interval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.medium_disk_strip_card_le_four' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.tight_flat_medium_nearby_diameter_endpoints_card_le_four' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.sharedFive_forward_nearby_diameter_card_le_four' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.SixBottomIndirectSource.nearby_diameter_card_le_four' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.SixBottomIndirectSource.active_not_selected_endpoint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.two_six_bottom_sources_no_third_active' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.supporting_case4_triple_exclusion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.supporting_family_degree_five_mixed_capacity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.CertifiedDonorRule.indirect_left_adj_receiver' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.certified_family_total_le_twice_degree_of_direct_card' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.certified_family_receiver_capacity_of_degree_le_three' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.certified_family_total_le_active_add_direct' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.SixBottomIndirectSource.active_card_le_three' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.SixBottomIndirectSource.direct_card_le_one_of_degree_le_four' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.SixBottomIndirectSource.capacity_of_degree_le_four' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.certified_family_low_capacity_of_indirect_five_center' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.low_degree_overload_has_six_center_source' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.certified_family_total_le_unblocked_neighbors' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.certified_family_capacity_of_two_blocked_neighbors' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.tight_flat_far_deep_receiver_no_diameter_neighbor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.certified_family_sharedSix_deep_right_low_capacity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.SharedSixPacketChoice.low_overload_terminal_data' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.certified_family_reflectedSharedSix_deep_right_low_capacity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.ReflectedSharedSixPacketChoice.low_overload_terminal_data' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.SharedSixPacketChoice.deep_strip_no_diameter_neighbor' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.SharedSixPacketChoice.terminal_blocked_neighbors' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.ReflectedSharedSixPacketChoice.deep_strip_no_diameter_neighbor' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.ReflectedSharedSixPacketChoice.terminal_blocked_neighbors' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.certified_family_sharedSix_low_right_capacity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.certified_family_reflectedSharedSix_low_right_capacity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.certified_family_low_capacity_of_indirect_sharedSix_source' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.certified_family_low_capacity_of_indirect_reflectedSharedSix_source' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.certified_family_low_capacity_of_indirect_degree_six_center_source' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.certified_family_receiver_capacity_of_degree_le_four' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.certified_family_sharedFive_bottom_capacity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.degree_five_overload_indirect_is_six_bottom' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.certified_family_degree_five_capacity_of_no_diameter_neighbor' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos957.supporting_family_receiver_capacity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.supporting_family_charge_certificate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.supporting_family_count_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.all_exceptional_charge_certificate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.exists_uniform_charge_certificate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.uniform_charging_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.erdos957_charging_estimate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.erdos957_product_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.erdos957_quantitative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.erdos957_asymptotic' depends on axioms: [propext, Classical.choice, Quot.sound]
+@Erdos957.erdos957_product_bound : ∀ {n : ℕ} (p : Fin n → Erdos957.Point),
+  2 ≤ n → Function.Injective p → ↑(Erdos957.sMin p) * ↑(Erdos957.sMax p) ≤ 9 / 8 * ↑n ^ 2 + 25200 * ↑n
+Erdos957.erdos957_quantitative : Erdos957.QuantitativeBound
+Erdos957.erdos957_asymptotic : Erdos957.AsymptoticBound
+'Erdos957.erdos957_product_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.erdos957_quantitative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos957.erdos957_asymptotic' depends on axioms: [propext, Classical.choice, Quot.sound]
